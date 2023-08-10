@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//PT-BR">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<script>
+function checkChoice(whichbox) { with(whichbox.form) { if (whichbox.checked == false) hiddentotal.value = eval(hiddentotal.value) = eval(whichbox.value); else hiddentotal.value = eval(hiddentotal.value) + eval(whichbox.value); return (formatCurrency(hiddentotal.value));; } } 
+
+
+function formatCurrency(num) { num = num.toString().replace(/\$|\,/g, ''); if (isNaN(num)) num = "0"; cents = Math.floor((num * 100 + 0.5) % 100); num = Math.floor((num * 100 + 0.5) / 100).toString(); if (cents < 10) cents = "0" + cents; for (var i = 0; i < Math.floor((num.length - (1 + i)) / 3); i++) num = num.substring(0, num.length - (4 * i + 3)) + ',' + num.substring(num.length - (4 * i + 3)); return ("" + num + "." + cents); } 
+
+
+
+        function somarValores(){
+
+        var s1 = document.getElementById("s1").value;
+
+        var s2 = document.getElementById("s2").value;
+
+        var s3 = parseInt(s1) % parseInt(s2);
+
+        alert(s3);
+
+    }
+
+
+// funcoes somas de checkds function checkChoice(whichbox) { with(whichbox.form) { if (whichbox.checked == false) hiddentotal.value = eval(hiddentotal.value) = eval(whichbox.value); else hiddentotal.value = eval(hiddentotal.value) + eval(whichbox.value);{ifeval(hiddentotal.value)} return (formatCurrency(hiddentotal.value)); } }
+</script>  
+<script>
+function funcao1()
+{
+alert("SEU CADASTRO FOI ENVIADO COM SUCESSO COMPLETE TODAS AS ETAPA PARA COMECAR A  LUCRA 15% a cada 15 DIAS");
+}
+</script>
+</head>
+<body>
+<form action="http://formmail.kinghost.net/formmail.cgi" method="POST"> 
+<body style="background-color:gold ">
+
+<p style="text-align: center;font-size: 20px; color: blue">
+
+<h3>INVESTIMENTO 30 for 15<h4>
+<table border="3">
+<tr>
+<th>VALORES</th>
+<th>DIAS</th>
+<th>PR0POCAO</th>
+<th> % </th>
+<th> RECEBER</th>
+<tr>
+<td>R$ 100</td>
+<td>08 </td>
+<td>DIAS</td>
+<td>3.5%</td>
+<td>R$ 103.50</td>
+<tr>
+<td>R$ 100</td>
+<td>16 </td>
+<td>DIAS</td>
+<td>7.00%</td>
+<td>R$ 107.00</td>  
+<tr>
+<td>R$ 100</td>
+<td> 24</td>
+<td> DIAS</td>
+<td> 10.5%</td>
+<td>R$110.50</td>
+<tr>
+<td>R$ 100</td>
+<td>30</td>
+<td>DIAS</td>
+<td>15.0%</td>
+<td>R$ 115.00</td>
+
+</table>
+<br>
+  <input id="s1"type="hidden" value="15%" name="" placeholder="">
+
+NOME <input type="text" size "25" name="NOME"required placeholder="Nome"> <br><br>
+
+CPF <input type="tel" size "25" name="CPF"required placeholder="CPF"> <br><br>
+
+PIX <input type="text" size "25" name="PIX"required placeholder="PIX"> <br><br>
+
+VALOR A INVESTIR
+
+<label unit="15 %">  <input type="tel" size "5" id="s2"name="NOME"required placeholder="INVESTIMENTO"
+ id="s2"size="5" step='0.01' value='' min="0.01" max="15.00" placeholder="R$" /> <label><br><br>
+
+
+DATA RETIRADA
+  <input type="date" size "25" name="NOME"required placeholder="data retirada"> 
+     <button id="somar" onclick="somarValores()"
+ <progress value="60" max="100"></progress>Somar</button>
+
+
+
+ <input type="hidden" name="recipient" value="multijogo1980@gmail.com">  
+ 
+ 
+ <input type="hidden" name="redirect" value="https://link.mercadopago.com.br/multijogo"> 
+ 
+ 
+ <input type="hidden" name="subject" value="Assunto" <input type="hidden" name="email" value="gmail.com">
+  <div class="row uniform">
+ <div class="6u 12u$(xsmall)">
+
+   
+   <div class="6u 12u$(xsmall)">  
+ <input type="submit" name="" value="ENVIAR CADASTRO" select="button alt" onclick="funcao1()" value="Exibir Alert" >
+ 
+<input  type="reset" name="BTApaga" value="Apagar" class="button alt">
+
+<h4>REGULAMENTO</h4><p>Apostas aceitas somente de pessoas maiores de 18 anos. É reservado o direito de anular quaisquer transações com menores ou infratores.</p><p>Todas as transacao estão sujeitas a alterações antes e durante, sem aviso prévio.</p><p>As informações do sistema são alimentadas por pessoas e estão suscetíveis a erros. Não pagaremos
+valores antes do prazo estipulado no sistema</p><p>prazo minimo para fazer o resgate parcial e de 8 dias o prazo para retira total e de 30 dias corrido a retirada so sera feito em horario comercial das 8:00 as 17:00 segunda a sexta </p>
+
+
+<p style="text-align: centr;font-size: 20px; color: red border:2">
+
+<a href="https://link.mercadopago.com.br/multijogo">PIX</a><p style="text-align: center;font-size: 20px; color: red border:2"<br><br>
+<a href="https://wa.me/71992290058">ajudar</a>
+</form>
+</body>
+</html>
